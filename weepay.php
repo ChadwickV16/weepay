@@ -45,10 +45,12 @@ $posts = [
         'zipCode' => 34903
     ],
     'Products' => [
-        'productId' => 1,
-        'name' => 'Test Ürün',
-        'productPrice' => 1,
-        'itemType' => 'VIRTUAL'
+        'product' => [
+            'productId' => 1,
+            'name' => 'Test Ürün',
+            'productPrice' => 1,
+            'itemType' => 'VIRTUAL'    
+        ]
     ]
 ];
 
